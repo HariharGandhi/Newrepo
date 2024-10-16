@@ -1,0 +1,39 @@
+Types of IL:
+1. Normal IL: The one we know
+
+2.Default Information Model:
+- Go to data sources. Right click on the Table to copy column data.
+- Create Default Information Model
+- Description if needed. Automatically assign new name for the created item.
+- Here the table and IL is created from the requested data.
+- BY using this option, we can select all columns from one table to create new data.
+
+3. Prompt IL:
+- An alternative to setting filter conditions in the Filters section.
+- In an IL, we select a column in prompt and add it.
+- Max selection: No. of inputs to be considered.
+- Prompt types are:
+	- Range: Values between minimum limit and maximum limit.
+	- Values: Here U can enter the desired values which we want to
+		see in our data. Only those values will be displayed
+	- Multiple Selection: U can select values from the column values.
+		Here Max selection acts as limit.
+	- Single Selection: See the values in column and selectonly 1 
+		required value.
+- Here You can also add multiple prompts for different columns.
+
+
+4. Parameterized IL:
+- When we add a parameter check in the SQL query, i.e. the where codition, it is added in the parameters.
+- We can edit the condition as per the requirement.
+
+Types of Parameters: (Put this in conditions)
+
+1. Input Value: the column, followed by the arithematic operator, '?Inputparameter' .
+eg. e1."id" = ?Inputparamter
+
+2. Direct value: the column, followed by the arithematic operator, the value.
+eg.  e1."id" = 1
+
+3. Mutiple values: the column, followed by the 'in', '(?Inputparameter)'
+eg. e1."id" in(?Inputparamter)
