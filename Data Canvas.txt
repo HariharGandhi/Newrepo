@@ -1,0 +1,18 @@
+Data Canvas:
+
+We can view the structure of the data.
+We can know what all data tables, IL we have in that report.
+We can replace the data tables
+WHen we click the information item on screen we'll get to now, type, path, Id, details
+Data Loading:
+Always new data(recommended)
+New data when possible
+Stored data
+
+Data reload is generally used by developers when they make changes and they want it to reflect it in the dashboard.
+
+Replace data src
+On-demand settings: Get the latest data from the DB.
+Add transformations
+
+Calculated columns: A column with expression(calculations). It will have data from a table and then a new column/columns are added which calculate data based on the provided calculation
